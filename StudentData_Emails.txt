@@ -1,4 +1,4 @@
-Antoniou, Bryan,Bantoniou0196@conestogac.on.ca
+ï»¿Antoniou, Bryan,Bantoniou0196@conestogac.on.ca
 Auterhoff, Hayden,Hauterhoff6824@conestogac.on.ca
 Bhat, Avaneesh,Abhat4267@conestogac.on.ca
 Campbell, Alistair,Acampbell9373@conestogac.on.ca
@@ -15,7 +15,7 @@ Ibanez, Sebastian,Sibanez0081@conestogac.on.ca
 Maksymov, Artem,Amaksymov9936@conestogac.on.ca
 Mansor, Amir,Amansor1893@conestogac.on.ca
 Noureddine, Ali,Anoureddine9536@conestogac.on.ca
-Núñez Siri, Omar,Onunezsiri0878@conestogac.on.ca
+NÃºÃ±ez Siri, Omar,Onunezsiri0878@conestogac.on.ca
 Oladimeji, David,Doladimeji9062@conestogac.on.ca
 Patel, Drashti Bhaveshkumar,Dpatel6452@conestogac.on.ca
 Patel, Jignesh Nilesh,Jpatel3849@conestogac.on.ca
