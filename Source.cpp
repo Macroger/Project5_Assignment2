@@ -27,11 +27,13 @@ int main()
 
 	std::vector<STUDENT_DATA> studentRoster = LoadStudentFile(fileName);
 
+#ifdef _DEBUG
 	int count = 0;
 	for (const auto& item : studentRoster)
 	{
 		std::cout << "" << item.firstName << " " << item.lastName << " [" << item.email << "]" << std::endl;
 	}
+#endif
 
 	std::cout << "\n\nExiting program. Have a good day." << std::endl;
 
