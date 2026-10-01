@@ -5,6 +5,7 @@
 #include <sstream>
 #include <regex>
 #include <windows.h>
+//#define PRE_RELEASE
 
 struct STUDENT_DATA
 {
@@ -21,9 +22,17 @@ int main()
 {
 	SetConsoleOutputCP(CP_UTF8);
 
-	std::string fileName = "StudentData_Emails.txt";
+	std::string fileName = "";
 
-	std::cout << "Trying to open file: " << fileName << "\n" << std::endl;
+#ifdef PRE_RELEASE
+	std::cout << "Running Pre-Release version of software.\n" << std::endl;
+	fileName = "StudentData_Emails.txt";
+#else
+	std::cout << "Running Standard version of software\n" << std::endl;
+	fileName = "StudentData.txt";
+#endif
+
+	std::cout << "Attempting to open file: " << fileName << "\n" << std::endl;
 
 	std::vector<STUDENT_DATA> studentRoster = LoadStudentFile(fileName);
 
@@ -31,7 +40,7 @@ int main()
 	int count = 0;
 	for (const auto& item : studentRoster)
 	{
-		std::cout << "" << item.firstName << " " << item.lastName << " [" << item.email << "]" << std::endl;
+		std::cout << "" << item.firstName << " " << item.lastName << " " << item.email << "" << std::endl;
 	}
 #endif
 
